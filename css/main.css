@@ -157,7 +157,7 @@ div.contatos {
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 420px){
 
   .container {
     width: 350px;

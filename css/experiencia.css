@@ -12,7 +12,7 @@ section.experiencia > h2 {
   font-family: 'Fira Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 160px;
+  font-size: 10em;
   line-height: 192px;
   text-transform: uppercase;
   word-break: break-all;
@@ -27,9 +27,9 @@ section.experiencia > h2 {
   background: var(--c1);
 }
 
-/* .projetos > p {
-  margin-bottom: 20px;
-} */
+.projetos p {
+  line-height: 26px;
+}
 
 .projetos p span {
   font-weight: bold;
@@ -53,7 +53,7 @@ section.experiencia > h2 {
 
 .projetos .projeto h2 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 42px;
   color: var(--c6);
 }
@@ -76,4 +76,35 @@ section.experiencia > h2 {
   color: var(--c1);
   font-weight: 700;
   padding: 5px;
+}
+
+@media (max-width: 700px){ 
+  section.experiencia {
+    display: inherit;
+    margin-top: 40px;
+  }
+
+  section.experiencia > h2 {
+    font-size: 3em;
+    line-height: 1.5em;
+    word-break: normal;
+    max-width: 1ch;
+    text-align: center;
+    color: var(--c9);
+    letter-spacing: 0.125em;
+  }
+
+  section p {
+    font-size: 0.8em;
+    /* line-height: 10px; */
+  }
+
+  .projetos > h2 { 
+    font-size: 1.5em;
+  }
+
+  .projetos .projeto h2 {
+    font-size: 1.125em;
+    /* line-height: 20px; */
+  }
 }
