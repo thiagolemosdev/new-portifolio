@@ -1,0 +1,79 @@
+section.experiencia {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 60px;
+  margin-top: 40px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+section.experiencia > h2 {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 192px;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width:5ch;
+  color: var(--c4);
+}
+
+.projetos {
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background: var(--c1);
+}
+
+/* .projetos > p {
+  margin-bottom: 20px;
+} */
+
+.projetos p span {
+  font-weight: bold;
+  color: var(--c11);
+}
+
+.projetos > h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 63px;
+  color: var(--c5);
+  margin-bottom: 20px;
+}
+
+.projetos .projeto {
+  background-color: var(--c2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+
+.projetos .projeto h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  color: var(--c6);
+}
+
+.projetos .projeto p {
+  margin-bottom: 10px;
+}
+
+.projetos .projeto a {
+  text-decoration: none;
+  color: var(--c9);
+}
+
+.projetos .projeto div {
+  margin-top: 20px;
+}
+
+.projetos .projeto div span {
+  background-color: var(--c5);
+  color: var(--c1);
+  font-weight: 700;
+  padding: 5px;
+}
