@@ -1,0 +1,26 @@
+:root {
+   --c1: #282A36;
+   --c2: #44475a;
+   --c3: #f8f8f2;
+   --c4: #6272a4;
+   --c5: #8be9fd;
+   --c6: #50FA7B;
+   --c7: #FFB86C;
+   --c8: #FF79C6;
+   --c9: #BD93F9;
+   --c10: #FF5555;
+   --c11 : #F1FA8C;
+}
+
+body {
+  background-color: var(--c2);
+  color: var(--c3);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace; */

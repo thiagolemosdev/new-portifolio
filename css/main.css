@@ -1,0 +1,192 @@
+main {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 60px;
+}
+
+.perfil {
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  background: var(--c1);
+  /* height: 530px; */
+}
+
+div.perfil > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: solid var(--c10) 3px;
+}
+
+div.perfil h3 {
+  padding: 50px 0;
+  color: var(--c5);
+  font-size: 2.5em;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+div.perfil p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+  color: var(--c4);
+  padding-bottom: 20px;
+}
+
+div.quem-sou-eu,
+div.onde-me-encontrar {
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background: var(--c1);
+  font-family: 'Roboto Mono', monospace;
+}
+
+div.quem-sou-eu h2,
+div.onde-me-encontrar h2 {
+  font-size: 3em;
+  color: var(--c5);
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+div.quem-sou-eu p {
+  padding-bottom: 20px;
+  line-height: 26px;
+}
+
+div.onde-me-encontrar li {
+  padding-bottom: 10px;
+}
+
+div.onde-me-encontrar li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+div.onde-me-encontrar li span {
+  color: var(--c11);
+}
+
+div.contatos {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px){
+  .container {
+    width: 900px;
+  }
+
+  div.perfil h3 {
+    font-size: 2em;
+  }
+
+  div.perfil p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    color: var(--c4);
+    padding-bottom: 20px;
+  }
+
+  div.perfil p {
+    font-size: 1em;
+  }
+
+  div.quem-sou-eu h2,
+  div.onde-me-encontrar h2 {
+    font-size: 2.5em;
+  }
+
+  div.onde-me-encontrar li span {
+    font-size: 0.8em;
+  }
+
+  div.quem-sou-eu p {
+    padding-bottom: 20px;
+    line-height: 16px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 700px){
+  main {
+    display: inherit;
+  }
+
+  div.perfil > img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .container {
+    width: 600px;
+  }
+
+  div.perfil h3 {
+    padding: 10px 0;
+    font-size: 1em;
+  }
+
+  div.perfil p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8em;
+    color: var(--c4);
+    padding-bottom: 10px;
+  }
+
+  div.perfil p {
+    font-size: 1em;
+  }
+
+  div.quem-sou-eu h2,
+  div.onde-me-encontrar h2 {
+    font-size: 2em;
+  }
+
+  div.onde-me-encontrar li span {
+    font-size: 0.8em;
+  }
+
+  div.quem-sou-eu p {
+    padding-bottom: 20px;
+    line-height: 16px;
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 400px){
+
+  .container {
+    width: 350px;
+    /* margin: 0 auto; */
+  }
+
+  div.perfil h3 {
+    font-size: 1.5em;
+  }
+
+  div.perfil p {
+    font-size: 0.5em;
+  }
+
+  div.perfil p {
+    font-size: 1em;
+  }
+
+  div.quem-sou-eu h2,
+  div.onde-me-encontrar h2 {
+    font-size: 1.5em;
+  }
+
+  div.onde-me-encontrar li span {
+    font-size: 0.8em;
+  }
+
+  div.contatos {
+    display: inherit;
+    justify-content: space-between;
+  }
+}
